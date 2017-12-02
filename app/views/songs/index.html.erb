@@ -1,6 +1,6 @@
 <ul>
-
+  <% @songs.each do |a| %>
+  <li><%= a.name%></li>
+  <% end %>
 </ul>
-<% @songs.each do |a| %>
-<li><%= a.name%></li>
-<% end %>
+
