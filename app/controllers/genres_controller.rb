@@ -1,16 +1,16 @@
 class GenresController < ApplicationController
   def show
-  end 
+  end
 
   def edit
-  end 
+  end
 
   def update
-  end 
+  end
 
   def new
-  end 
+  end
 
-  def create 
+  def create
   end 
 end
