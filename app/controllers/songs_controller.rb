@@ -16,6 +16,7 @@ class SongsController < ApplicationController
   end
 
   def create
+    @song = Song.create(song_params)
   end
 
   private
