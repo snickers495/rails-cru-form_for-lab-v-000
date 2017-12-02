@@ -16,7 +16,7 @@ class GenresController < ApplicationController
   end
 
   def create
-  end 
+  end
 
   private
 
